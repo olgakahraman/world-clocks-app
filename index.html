@@ -6,42 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clocks App</title>
     <link rel="stylesheet" href="css/style.css" />
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <div class="container">
-      <h1>World Clocks</h1>
-      <form>
-        <select>
+   
+     
+      <div class="container">
+         <h1>World Clocks</h1> 
+        
+        <select id="selectCity">
           <option value="">Select a city</option>
           <option value="">Berlin 🇩🇪</option>
           <option value="">Kharkiv 🇺🇦</option>
           <option value="">London🇬🇧</option>
         </select>
-      </form>
+     
+     
       <div class="city">
-        <h2>New York 🇺🇸</h2>
+        <div>
+        <h2>New York </h2>
         <div class="date">December 26th 2022</div>
-        <div class="time">1:48:15 AM</div>
+        </div>
+        <div class="time">1:48:15<small>AM</small></div>
       </div>
+      
       <div class="city">
-        <h2>Istanbul🇹🇷</h2>
+        <div>
+        <h2>Shenzhen</h2>
         <div class="date">December 26th 2022</div>
-        <div class="time">1:48:15 AM</div>
+        </div>
+        <div class="time ">1:48:15<small>AM</small></div>
       </div>
-      <div class="city">
-        <h2>Shenzhen🇨🇳</h2>
-        <div class="date">December 26th 2022</div>
-        <div class="time">1:48:15 AM</div>
-      </div>
+      
     </div>
     <footer>
-      This project was coded by Olga D.Kahraman and
+      This project was coded by <strong>Olga D.Kahraman</strong> and
       <a href="https://github.com/olgakahraman/world-clocks-app" target="_blank"
         >open-sourced on GitHub</a
       >
     </footer>
+    
     <script src="javacript/app.js"></script>
   </body>
 </html>
