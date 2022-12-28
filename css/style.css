@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .container {
@@ -8,9 +8,10 @@ body {
   background: red;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  font-family: "Share Tech Mono", monospace;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-radius: 10px;
-  color:white;
+  color:#ffffff;
+  
 }
 h1 {
   font-size: 48px;
@@ -37,6 +38,7 @@ select {
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  
 }
 .city:last-child {
   border: none;
@@ -53,4 +55,6 @@ select {
 footer {
   text-align: center;
   margin-top: 0px;
+  font-family:'Courier New', Courier, monospace;
+
 }
